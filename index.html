@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./CssForJsChanges.css">
+    <title>Spotify</title>
+</head>
+<body>
+     <nav class="navbar d-flex ai-center">
+         <div class="d-flex ai-center"><img src="./imgs/logo.png" id="logo" alt="logo"> Spotify</div>
+         <ul class="d-flex ai-center"> 
+             <li><a href="#"><span class="logo"><img src="./imgs/logo.png" alt="logo"></span></a></li>
+             <li><a href="#" >Home</a></li>
+             <li><a href="#">More</a></li>
+         </ul>
+         <div id="search">
+             <input type="text" placeholder="Search your favourite song...">
+             <button>Search</button>
+         </div>
+     </nav>
+     <section class="nav">
+        
+     </section>
+     <section class="songList">
+         <p>Song List...</p>
+     </section>
+     <section class="main-body d-flex">
+         <section class="section-1"></section>
+         <section class="section-2 d-flex ai-center">
+            <img src="./imgs/music.png" alt="music">
+            <p class="songName"><marquee></marquee></p>
+            <input type="range" name="musicArea" min="0" id="progressBar" value="0">
+            <div class="musicButtons d-flex ai-center jc-center">
+                <button id="previous" onclick="playPreviousMusic()"><</button>
+                <div id="play" onclick="playMusic()"><center><img src="https://www.freeiconspng.com/uploads/pause-button-png-11.png" alt="Pause Button" style="display:none;" id="Pause"/><img src="./imgs/pause-button-png-29671 (1).png" alt="Play button" id="Play" style="display:block;"></center></div>
+                <button id="next" onclick="playNextMusic()" >></button>
+            </div>
+         </section>
+         <img src="./imgs/YdBO.gif" alt="gif" class="gif">
+     </section>
+</body>
+<!-- <script src="./index.js"></script> -->
+<script src="./new.js"></script>
+</html>

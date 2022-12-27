@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+.currentSong {
+    background-color: rgb(19, 18, 18);
+}
+
+.songListName {
+    width: 17vw;
+    margin: 0;
+    overflow: visible;
+    overflow-x: hidden;
+}
+
+@media (max-width:1000px) {
+    body {
+        overflow: visible;
+        overflow-x: hidden; 
+        width: 100vw;
+        height: auto;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        display: none;
+    }
+
+    .section-1 {
+        width: 100vw;
+        height: 88vh;
+        display: none;
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .section-2 {
+        width: 100vw;
+        height: 88vh;
+    }
+    
+    .main-body {
+        flex-direction: column;
+    }
+    
+    .gif {
+        position: absolute;
+        bottom: 0;
+    }
+    
+    .songList {
+        display: block;
+        background-color: rgb(48, 45, 45);
+        color: white;
+        border-bottom: 2px solid rgb(156, 153, 153);height: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: sticky;
+        font-size: 1.2em;
+        font-family: 'Merriweather', serif;
+    }
+
+    .section-2 img {
+        width: 85%;
+        height: 45%;
+    }
+
+    .section-2 input {
+        width: 85%;
+    }
+
+    .songName {
+        width: 85%;
+    }
+
+    #play {
+        margin: 0 8vw;
+        width: 12vw;
+        height: 12vw;
+    }
+
+    #previous,
+    #next {
+        width: 10vw;
+        height: 10vw;
+    }
+
+    .gif {
+        width: 100vw;
+        display: none;
+    }
+
+    #search input {
+        width: 20vw;
+    }
+    #search button {
+        width: 13vw;
+    }
+    #logo{
+        display: inline;
+    }
+    .navbar{
+        justify-content: space-between;
+        flex-direction: row;
+        width: 100vw;
+        height: 6vh;
+        color: aliceblue;
+    }
+    .navbar img{
+        width: 8vw;
+    }
+    .song{
+        width: 100%;
+        padding: 2.4vh 0.5vw;
+        background-color: rgba(48, 45, 45, 0.801);
+        font-size: 1.5em;
+    }
+    .song img{
+        width: 10vw;
+        height: 10vw;
+    }
+    .song:hover{
+        background-color: rgba(19, 18, 18, 0.884);
+    }  
+}
