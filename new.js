@@ -11,14 +11,14 @@ let files=[
     {songName:"Afro_House_2017_The_Best_of_Afro_House_2017_by_OSOCITY",songPath:"./Songs/Afro_House_2017_The_Best_of_Afro_House_2017_by_OSOCITY(128k).m4a"},
     {songName:"Agar_Tum_Saath_Ho_Maahi_Ve_l_T-Series_Mixtape_l_Jubin_N_Prakriti_K_Abhijit",songPath:"./Songs/Agar_Tum_Saath_Ho_Maahi_Ve_l_T-Series_Mixtape_l_Jubin_N_Prakriti_K_Abhijit_V_l_Bhushan_Kumar_Ahmed_K(128k).mp3"},
     {songName:"Aila re aila...",songPath:"./Songs/song1.mp3"},
-    {songName:"Tum_Prem_Ho_Tum_Preet_Ho_Video_Song__Radha_Krishna",songPath:"./Songs/Tum_Prem_Ho_Tum_Preet_Ho_Video_Song__Radha_Krishna_Serial_Song(128k).mp3"},
-    {songName:"Mitti_Di_Khushboo",songPath:"./Songs/_'Mitti_Di_Khushboo'_FULL_VIDEO_Song__Ayushmann_Khurrana__Rochak_Kohli(128k).mp3"},
-    {songName:"_Aayat__Full_Song_with_Lyrics__Bajirao_Mastani",songPath:"./Songs/_Aayat__Full_Song_with_Lyrics__Bajirao_Mastani(128k).mp3"},
-    {songName:"_Hai_Katha_Sangram_Ki____Mahabharata___Full_Title_Song",songPath:"./Songs/_Hai_Katha_Sangram_Ki____Mahabharata___Full_Title_Song_%2CHD_Audio__Use_Earphones_(128k).mp3"},
-    {songName:"_I_M_Hunter__Gangs_of_Wasseypur____Manoj_Bajpai",songPath:"./Songs/_I_M_Hunter__Gangs_of_Wasseypur____Manoj_Bajpai,_Reema_Sen,_Huma_Qureshi(128k).mp3"},
-    {songName:"_Kabhi_Kabhi_Aditi_Zindagi__Jaane_Tu_Ya_Jaane_Na",songPath:"./Songs/_Kabhi_Kabhi_Aditi_Zindagi__Jaane_Tu_Ya_Jaane_Na__A.R._Rahman__Rashid_Ali(128k).mp3"},
-    {songName:"_Kahin_To_Hogi_Woh__Jaane_Tu_Ya_Jaane_Na",songPath:"./Songs/_Kahin_To_Hogi_Woh__Jaane_Tu_Ya_Jaane_Na__Imran_Khan,_Genelia_D'Souza__A.R._Rahman(128k).mp3"},
-    {songName:"_Masakali__Delhi_6__Abhishek_Bachchan",songPath:"./Songs/_Masakali__Delhi_6__Abhishek_Bachchan,_Sonam_Kapoor__A.R._Rahman___Mohit_Chauhan(128k).mp3"}
+    {songName:"Tum_Prem_Ho_Tum_Preet_Ho_Video_Song__Radha_Krishna",songPath:"./Songs/Tum_Prem_Ho_Tum_Preet_Ho_Video_Song__Radha_Krishna_Serial_Song(128k).mp3"}
+    // {songName:"Mitti_Di_Khushboo",songPath:"./Songs/_'Mitti_Di_Khushboo'_FULL_VIDEO_Song__Ayushmann_Khurrana__Rochak_Kohli(128k).mp3"},
+    // {songName:"_Aayat__Full_Song_with_Lyrics__Bajirao_Mastani",songPath:"./Songs/_Aayat__Full_Song_with_Lyrics__Bajirao_Mastani(128k).mp3"},
+    // {songName:"_Hai_Katha_Sangram_Ki____Mahabharata___Full_Title_Song",songPath:"./Songs/_Hai_Katha_Sangram_Ki____Mahabharata___Full_Title_Song_%2CHD_Audio__Use_Earphones_(128k).mp3"},
+    // {songName:"_I_M_Hunter__Gangs_of_Wasseypur____Manoj_Bajpai",songPath:"./Songs/_I_M_Hunter__Gangs_of_Wasseypur____Manoj_Bajpai,_Reema_Sen,_Huma_Qureshi(128k).mp3"},
+    // {songName:"_Kabhi_Kabhi_Aditi_Zindagi__Jaane_Tu_Ya_Jaane_Na",songPath:"./Songs/_Kabhi_Kabhi_Aditi_Zindagi__Jaane_Tu_Ya_Jaane_Na__A.R._Rahman__Rashid_Ali(128k).mp3"},
+    // {songName:"_Kahin_To_Hogi_Woh__Jaane_Tu_Ya_Jaane_Na",songPath:"./Songs/_Kahin_To_Hogi_Woh__Jaane_Tu_Ya_Jaane_Na__Imran_Khan,_Genelia_D'Souza__A.R._Rahman(128k).mp3"},
+    // {songName:"_Masakali__Delhi_6__Abhishek_Bachchan",songPath:"./Songs/_Masakali__Delhi_6__Abhishek_Bachchan,_Sonam_Kapoor__A.R._Rahman___Mohit_Chauhan(128k).mp3"}
 ]
 
 const songListContainer=document.querySelector('.section-1');
